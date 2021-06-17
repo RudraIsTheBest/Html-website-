@@ -1,0 +1,42 @@
+h1{
+    color:rgb(133, 51, 51);
+ }
+
+ 
+
+ /* * {
+    border:solid;
+ } */
+
+ .header{
+     background-color: cadetblue;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+ }
+ p,h2{
+
+    text-align: center;
+ }
+
+ .grid{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+ .footer{
+
+    display: flex;
+    justify-content: flex-end;
+ }
+body{
+
+   background-color: #808080;
+}
